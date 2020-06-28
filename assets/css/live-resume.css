@@ -8190,7 +8190,9 @@ body{
   border-radius: 15px;
   margin-bottom: 5px;
   font-size: 14px;
+  display: inherit;
   color: #FFF;
+  width: 100%;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
@@ -8200,10 +8202,10 @@ body{
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
-  animation: load 2s 0s;
-  -webkit-animation: load 2s 0s;
-  -moz-animation: load 2s 0s;
-  -o-animation: load 2s 0s;
+  animation: load 1s 0s;
+  -webkit-animation: load 1s 0s;
+  -moz-animation: load 1s 0s;
+  -o-animation: load 1s 0s;
 }
 
 .bar.front::before{
