@@ -7534,15 +7534,17 @@ header {
   background-color: #f3f3f3;
   z-index: 1000; }
 
-.collapsible-nav {
+.collapsible-nav{
   display: flex;
   align-items: center;
   width: 0px;
   overflow: hidden;
   margin-right: 10px;
   transition: width 0.6s ease-in-out; }
-  .collapsible-nav.show {
-    width: 365px; }
+  .collapsible-nav.show{
+    width: 400px; 
+    list-style-type: none;
+  align-items: center;}
   @media (max-width: 991px) {
     .collapsible-nav {
       position: fixed;
@@ -7562,7 +7564,7 @@ header {
       box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
       .collapsible-nav.show {
         transform: translateX(0%);
-        width: 200px; } }
+        width: 300px; } }
   .collapsible-nav .nav-link {
     font-size: 12px;
     font-weight: 600;
@@ -7578,7 +7580,8 @@ header {
     .collapsible-nav .nav-link.active {
       color: #0067f6;
       border-bottom: 2px solid #0067f6;
-      padding-bottom: 0; }
+      padding-bottom: 0; 
+    }
 
 body {
   padding: 20px 60px; }
